@@ -2,6 +2,6 @@
 import sys
 
 for line in sys.stdin:
-  sys.stdout.write('...'+line.lower().strip()+'...\n')
-  sys.stdout.flush()
- 
+    sys.stdout.write("..." + line.lower().strip() + "...\n")
+    sys.stdout.flush()
+

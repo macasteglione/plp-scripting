@@ -2,7 +2,5 @@
 import sys
 
 for line in sys.stdin:
-  sys.stdout.write(line.upper().strip()+'!\n')
-  sys.stdout.flush()
- 
-
+    sys.stdout.write(line.upper().strip() + "!\n")
+    sys.stdout.flush()
